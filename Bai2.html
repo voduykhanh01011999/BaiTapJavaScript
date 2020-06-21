@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" name="f">
+        <select name="OptMauNen" id="" onclick="document.bgColor=f.OptMauNen.value">
+            <script>
+                var mau = new Array("white","red","yellow","blue","green","black");
+                for(var i in mau)
+                {
+                    document.write("<option value'"+mau[i]+"'>"+mau[i]+"</option>");
+                }
+            </script>
+        </select>
+    </form>
+</body>
+</html>

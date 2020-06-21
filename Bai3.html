@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="f">
+        <select name="OptThang" id="">
+            <script>
+                for(var thang=1;thang<=12;thang++)
+                {
+                    document.write("<option value='"+thang+"''>"+thang+"</option>");
+                }
+            </script>
+        </select>
+        <select name="OptNamSinh" id="">
+            <script>
+                var d = new Date();
+                var nam = d.getFullYear();
+                for(var nam=1970;nam<=2020;nam++)
+                {
+                    document.write("<option value='"+nam+"'>"+nam+"</option>");
+                }
+            </script>
+        </select>
+    </form>
+</body>
+</html>
